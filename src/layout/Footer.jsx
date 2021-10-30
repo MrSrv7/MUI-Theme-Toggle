@@ -1,6 +1,6 @@
 import { AppBar, Toolbar, Typography } from "@mui/material";
 
-const EHFooter = () => {
+const Footer = () => {
   return (
     <AppBar position="fixed" color="primary" sx={{ top: "auto", bottom: 0 }}>
       <Toolbar sx={{ justifyContent: "center" }}>
@@ -10,4 +10,4 @@ const EHFooter = () => {
   );
 };
 
-export default EHFooter;
+export default Footer;
