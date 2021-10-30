@@ -2,7 +2,7 @@ import { useTheme } from "@emotion/react";
 import { Card, CardContent } from "@mui/material";
 import Router from "../Router";
 
-const EHMain = () => {
+const Main = () => {
   const theme = useTheme();
 
   return (
@@ -35,4 +35,4 @@ const EHMain = () => {
   );
 };
 
-export default EHMain;
+export default Main;
